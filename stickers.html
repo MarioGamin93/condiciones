@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Condiciones Stickers</title>
+</head>
+<body>
+    <form class="container--flex" id="form">
+        <h1 class="title">Puedes llevar hasta 10 stickers en total</h1>
+        <div class="box">
+            <div class="container_sticker" >
+                <img src="/assets/img/gameboy-sticker.jpg" alt="Sticker Gameboy">
+                <input class="number" type="number" id="number1" placeholder="Escribe un numero">    
+            </div>
+            <div class="container_sticker">
+                <img src="/assets/img/joystick-play-sticker.jpg" alt="Sticker Play">
+                <input class="number" type="number" id="number2" placeholder="Escribe un numero">
+            </div>
+            <div class="container_sticker">
+                <img src="/assets/img/joystick-xbox-sticker.png" alt="Sticker Xbox">
+                <input class="number" type="number" id="number3" placeholder="Escribe un numero">
+            </div>
+        </div>
+        <p class="text" id="text"></p>
+        <input class="button" type="submit" value="Verificar">
+    </form>
+    
+    <script src="assets/js/sticker.js"></script>
+</body>
+</html>
